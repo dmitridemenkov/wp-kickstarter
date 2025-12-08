@@ -1,3 +1,11 @@
-node_modules/
 .DS_Store
-Thumbs.db
+/.srv/*
+!/.srv/custom.ini
+/plugins/akismet
+/plugins/hello.php
+/themes/twentytwentyfive
+/themes/twentytwentyfour
+/themes/twentytwentythree
+/themes/node_modules/
+
+/themes/Thumbs.db
