@@ -6,7 +6,7 @@
     <title><?php wp_title('|', true, 'right'); bloginfo('name'); ?></title>
     <?php wp_head(); ?>
 </head>
-<body <?php body_class(); ?>>
+<body <?php body_class('min-h-screen flex flex-col'); ?>>
 
 <header class="bg-white shadow-sm sticky top-0 z-50">
     <div class="container mx-auto px-4">
