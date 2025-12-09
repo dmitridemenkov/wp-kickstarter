@@ -1,4 +1,5 @@
 .DS_Store
+.env
 /.srv/*
 !/.srv/custom.ini
 /plugins/akismet
