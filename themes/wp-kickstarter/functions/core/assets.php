@@ -6,6 +6,15 @@ add_action('wp_enqueue_scripts', function() {
         [],
         filemtime(get_template_directory() . '/assets/app.css')
     );
+
+    if (file_exists(get_template_directory() . '/assets/main.css')) {
+        wp_enqueue_style(
+            'kickstarter-main-style',
+            get_template_directory_uri() . '/assets/main.css',
+            [],
+            filemtime(get_template_directory() . '/assets/main.css')
+        );
+    }
     
     wp_enqueue_script(
         'kickstarter-script',

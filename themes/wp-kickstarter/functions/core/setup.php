@@ -6,8 +6,10 @@
 // Регистрация меню
 add_action('after_setup_theme', function() {
     register_nav_menus([
-        'primary' => 'Основное меню',
-        'footer'  => 'Меню в футере',
+        'primary'      => 'Основное меню',
+        'footer_col_1' => 'Футер: Колонка 1',
+        'footer_col_2' => 'Футер: Колонка 2',
+        'footer_col_3' => 'Футер: Колонка 3',
     ]);
     
     // Поддержка заголовков страниц
